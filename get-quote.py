@@ -1,3 +1,6 @@
+import random
+last = 13
+  rnd = random.randint(0, last)
 def primary():
     f = open("quotes.txt")
     quotes = f.readlines()
